@@ -7,6 +7,7 @@ public class Root {
 		System.out.println("Enter a number to get it's square root!");
 		x = scan.nextDouble(); //assign the next input to our declared variable 
 		System.out.println("The square root of " + x + " is " + Math.sqrt(x));
+		scan.close();//close scanner so that there is no resource leak
 		//output is the square root of the number the user inputs. 
 	}
 }
