@@ -23,7 +23,9 @@ public class arithmeticOperatorsDemo {
 		System.out.println(original_result + " + 8 = " + result);
 		original_result = result;
 		
-		
+		result = result % 7;
+		System.out.println(original_result + " % 7 = " + result);
+		original_result = result;
 	}
 
 }
